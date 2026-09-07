@@ -109,3 +109,25 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.container {
+  display: inline-block;
+  width: 142rem;
+  max-width: 142rem;
+  margin: 0 auto;
+  padding: 9.6rem 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-two-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
