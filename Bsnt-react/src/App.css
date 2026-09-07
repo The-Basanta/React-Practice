@@ -1,17 +1,32 @@
-/* Main App Layout */
+/* App.css */
 
 .container {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 20px 30px;
 }
 
-/* Responsive container */
+/* Responsive */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .container {
-    width: 95%;
-    padding: 30px 0;
+    padding: 15px;
   }
+}
+
+.card-rating {
+  font-size: 14px;
+  margin: 0 0 6px;
+  color: #242424;
+}
+
+.superhit{
+  background-color: green;
+  border-radius: 7px;
+}
+
+.average{
+  background-color: yellow; 
+  border-radius: 10px;
 }
