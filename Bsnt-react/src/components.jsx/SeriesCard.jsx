@@ -3,7 +3,7 @@ export const SeriesCard = ({ series }) => {
   const btn_watch = {
     fontweight: 'bold',
     padding: '8px 10px',
-    backgroundColor: '#e50914',
+    backgroundColor: 'black',
     cursor: 'pointer',
      
   }
