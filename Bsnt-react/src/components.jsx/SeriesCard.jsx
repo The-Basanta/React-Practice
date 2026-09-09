@@ -1,13 +1,19 @@
 export const SeriesCard = ({ series }) => {
-  const { name, rating, description, genre, cast, watch_url, img_url } = series;
+  const { name, rating: seriesRating, description, genre, cast, watch_url, img_url } = series;
   const btn_watch = {
-    fontweight: 'bold',
+    fontWeight: 'bold',
     padding: '8px 10px',
     backgroundColor: 'black',
     cursor: 'pointer',
-     
-  }
-  const ratingClass = rating >= 8.5 ? "superhit" : "average";
+  };
+
+  const rating = styled.rating`
+    fontSize: '14px',
+    margin: '0 0 6px',
+    color: '#555',
+  `;
+
+  const ratingClass = seriesRating >= 8.5 ? "superhit" : "average";
 
   return (
     <li>
@@ -17,16 +23,13 @@ export const SeriesCard = ({ series }) => {
       <div className="card-content">
         <h1 className="card-heading">{name}</h1>
         Rating : 
-        <span className={`card-rating ${ratingClass}`}>
-           {rating}
-        </span>
+        <rating>{rating}</rating>
+           
         <p className="card-description">{description}</p>
         <p className="card-info">Genre : {genre.join(", ")}</p>
         <p className="card-info">Cast: {cast.join(", ")}</p>
         <a href={watch_url} target="_blank" rel="noopener noreferrer">
-          <button className="watch-button" style={btn_watch}>
-            Watch Now
-          </button>
+          <btn_watch>Watch Now</btn_watch>
         </a>
       </div>
     </li>
