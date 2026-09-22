@@ -12,11 +12,7 @@ const NetflixSeries = () => {
 };
 
 export const Footer = () => {
-  return (
-    <footer>
-      <p>© 2023 Netflix. All rights reserved.</p>
-    </footer>
-  );
+
 };
 
 export default NetflixSeries;
