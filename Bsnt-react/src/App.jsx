@@ -8,7 +8,6 @@ export const App = () => {
   return (
     <div className="container">
       <NetflixSeries />
-      <NetflixSeries />
       {/* <Footer />
       <Profile /> */}
       
