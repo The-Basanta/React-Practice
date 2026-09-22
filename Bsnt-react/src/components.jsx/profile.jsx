@@ -26,8 +26,8 @@ function Profile() {
       <h1>Profile Card</h1>
 
       <ProfileCard
-        name="Justin"
-        age={33}
+        name="Bashanta"
+        age={20}
         greeting="Hello, welcome to my profile!"
       >
         <p>Hobbies: Singing, dancing, and playing guitar.</p>
