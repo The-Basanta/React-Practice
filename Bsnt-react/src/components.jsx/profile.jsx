@@ -20,7 +20,7 @@ function Profile() {
         greeting="Hello, welcome to my profile!"
       >
         <p>Hobbies: Reading, hiking, and coding.</p>
-        <button>Contact-Me</button>
+        <button>Contact</button>
       </ProfileCard>
 
       <h1>Profile Card</h1>
@@ -28,7 +28,7 @@ function Profile() {
       <ProfileCard
         name="Justin"
         age={33}
-        greeting="Hello, welcome to my profile!"
+        greeting="Hello, welcome to my profile bro!"
       >
         <p>Hobbies: Singing, dancing, and playing guitar.</p>
         <button>Contact</button>
