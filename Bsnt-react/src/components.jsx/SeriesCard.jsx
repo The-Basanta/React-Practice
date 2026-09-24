@@ -29,7 +29,7 @@ export const SeriesCard = ({ series }) => {
         <p className="card-info">Genre : {genre.join(", ")}</p>
         <p className="card-info">Cast: {cast.join(", ")}</p>
         <a href={watch_url} target="_blank" rel="noopener noreferrer">
-          <btn_watch>WATCH</btn_watch>
+          <btn_watch>watch now</btn_watch>
         </a>
       </div>
     </li>
