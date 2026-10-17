@@ -30,7 +30,7 @@ function Profile() {
         age={33}
         greeting="Hello, welcome to my profile!"
       >
-        <p>Hobbies: Singing, dancing, and playing guitar.</p>
+        <p>Hobbies: Singing, dancing, and writing lyrics.</p>
         <button>Contact</button>
       </ProfileCard>
     </div>
