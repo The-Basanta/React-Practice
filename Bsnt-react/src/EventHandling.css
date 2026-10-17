@@ -19,3 +19,10 @@ button:hover {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+/* Active state: When the button is being clicked */
+button:active {
+  background-color: #1e40af;
+  transform: translateY(1px); /* Pressed down effect */
+}
+
+
